@@ -1,0 +1,30 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+.__* 
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+# ignoring mmf if not changing source
+mmf/*
+# vscode
+*.vscode
+# python cache files
+*__pycache__
+# coverage.py files
+*.coverage
+*htmlcov
+# pytest cache files
+*.pytest_cache
+# flask development environment
+.flaskenv
+# environment management file
+.envrc
+# images during dev
+web_app/static/*.png
+web_app/static/user/*
+web_app/.idea
+# .egg-info folders
+*.egg-info/
